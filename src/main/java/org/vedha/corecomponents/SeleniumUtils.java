@@ -72,6 +72,7 @@ public class SeleniumUtils extends BaseTest{
 	public void CloseAllWindows() {
 		driver.quit();
 		}
+	
 	public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException 
 	{
 		String dateName = new SimpleDateFormat("_ddMMyyyy_HHmmss").format(new Date());
@@ -81,7 +82,7 @@ public class SeleniumUtils extends BaseTest{
 		String destination = System.getProperty("user.dir") + "/ScreenShots/" + screenshotName + dateName + ".png";
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(source, finalDestination);
-		return destination;
+		return destination; 
 	}
 
 
@@ -93,11 +94,11 @@ public class SeleniumUtils extends BaseTest{
 			alert = driver.switchTo().alert();
 			System.out.println(alert.getText());
 			Thread.sleep(2000);
-			alert.dismiss();
+			alert.dismiss(); 
 			System.out.println("Alert Dismissed Successfully");
 		} 
 		catch(Exception e) 
-		{
+		{ 
 			System.out.println("Something Went Wrong ==>> Please Check ::: " + e.getMessage());
 		}
 	}

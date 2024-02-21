@@ -61,7 +61,7 @@ public class NaukariScripts extends BaseTest{
 		
 		@AfterMethod
 		public void Dispose() {
-			//seleniumUtils.CloseAllWindows();
+			seleniumUtils.CloseAllWindows();
 			
 		}
 

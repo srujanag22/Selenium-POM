@@ -2,24 +2,24 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-25T13:09:16 IST" name="Default suite" finished-at="2023-11-25T13:10:36 IST" duration-ms="80228">
+  <suite started-at="2023-11-29T19:29:31 IST" name="Default suite" finished-at="2023-11-29T19:29:51 IST" duration-ms="20086">
     <groups>
     </groups>
-    <test started-at="2023-11-25T13:09:16 IST" name="Default test" finished-at="2023-11-25T13:10:36 IST" duration-ms="80228">
+    <test started-at="2023-11-29T19:29:31 IST" name="Default test" finished-at="2023-11-29T19:29:51 IST" duration-ms="20086">
       <class name="org.vedha.naukari.NaukariScripts">
-        <test-method is-config="true" signature="SetUpLoggers()[pri:0, instance:org.vedha.naukari.NaukariScripts@65f8f5ae]" started-at="2023-11-25T13:09:16 IST" name="SetUpLoggers" finished-at="2023-11-25T13:09:16 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="SetUpLoggers()[pri:0, instance:org.vedha.naukari.NaukariScripts@72c8e7b]" started-at="2023-11-29T19:29:31 IST" name="SetUpLoggers" finished-at="2023-11-29T19:29:31 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpLoggers -->
-        <test-method is-config="true" signature="Initialization()[pri:0, instance:org.vedha.naukari.NaukariScripts@65f8f5ae]" started-at="2023-11-25T13:09:16 IST" name="Initialization" finished-at="2023-11-25T13:09:22 IST" duration-ms="5776" status="PASS">
+        <test-method is-config="true" signature="Initialization()[pri:0, instance:org.vedha.naukari.NaukariScripts@72c8e7b]" started-at="2023-11-29T19:29:31 IST" name="Initialization" finished-at="2023-11-29T19:29:40 IST" duration-ms="8651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialization -->
-        <test-method signature="VerifyRegPage()[pri:2, instance:org.vedha.naukari.NaukariScripts@65f8f5ae]" started-at="2023-11-25T13:09:22 IST" name="VerifyRegPage" description="Verifying Naukari Registration functionality" finished-at="2023-11-25T13:10:34 IST" duration-ms="72319" status="PASS">
+        <test-method signature="VerifyLoginPage()[pri:1, instance:org.vedha.naukari.NaukariScripts@72c8e7b]" started-at="2023-11-29T19:29:40 IST" name="VerifyLoginPage" description="Verifying Naukari Login &amp; Logout functionality" finished-at="2023-11-29T19:29:51 IST" duration-ms="11012" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyRegPage -->
-        <test-method is-config="true" signature="Dispose()[pri:0, instance:org.vedha.naukari.NaukariScripts@65f8f5ae]" started-at="2023-11-25T13:10:36 IST" name="Dispose" finished-at="2023-11-25T13:10:36 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- VerifyLoginPage -->
+        <test-method is-config="true" signature="Dispose()[pri:0, instance:org.vedha.naukari.NaukariScripts@72c8e7b]" started-at="2023-11-29T19:29:51 IST" name="Dispose" finished-at="2023-11-29T19:29:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dispose -->
